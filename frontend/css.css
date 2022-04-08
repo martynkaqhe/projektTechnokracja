@@ -1,0 +1,70 @@
+body{
+    font-family: 'Ropa Sans';
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #6D65A9 0%, rgba(143, 132, 219, 0.21) 100%) no-repeat;
+    width: 100%;
+  }
+  footer{
+      background-color: #3C375C
+      ;
+  }
+  header{
+      padding-top: 15px;
+      padding-left: 15%;
+      padding-right: 15%;
+      font-size:150%; 
+      
+  }
+  a{
+      color: #E2DFF5;
+      text-decoration: none;
+  }
+  #podstrona{
+        
+      margin-left: 10%;
+  }
+#log-in{
+    float: right;
+}
+main{
+    color: #3C375C;
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 100px;
+    height: 500px;
+   
+
+}
+#mainTxt{
+    float: left;
+    font-size: 500%;
+    width: 50%;
+
+}
+#mainPng{
+    float:left;
+    width: 50%;
+}
+form{
+    margin-top: 5%;
+}
+#formElement{
+    background-color: #E2DFF5;
+    border: 1px solid #7A6EB0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 3%;
+    font-family: 'Ropa Sans';
+    font-weight: bold;
+    
+}
+footer{
+    clear: both;
+    height: 72px;
+}
+
+ 
+  
+ 
