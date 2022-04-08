@@ -4,36 +4,43 @@ body{
     padding: 0;
     background: linear-gradient(180deg, #6D65A9 0%, rgba(143, 132, 219, 0.21) 100%) no-repeat;
     width: 100%;
+    height:fit-content;
   }
-  footer{
-      background-color: #3C375C
-      ;
+  html {
+    height: 100%;
   }
+  
   header{
-      padding-top: 15px;
+      color: #E2DFF5;
       padding-left: 15%;
       padding-right: 15%;
-      font-size:150%; 
+      font-size:200%; 
       
   }
-  a{
+  #logo{
+      width: 70px;
+      float: left;
+  }
+  a{  
       color: #E2DFF5;
       text-decoration: none;
   }
   #podstrona{
-        
+    padding-top: 15px;
+    float: left;
       margin-left: 10%;
   }
 #log-in{
+    padding-top: 15px;
     float: right;
 }
-main{
+#main{
     color: #3C375C;
     width: 70%;
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 100px;
-    height: 500px;
+    padding-top: 150px;
+    
    
 
 }
@@ -55,16 +62,39 @@ form{
     border: 1px solid #7A6EB0;
     box-sizing: border-box;
     border-radius: 10px;
-    padding: 3%;
+    padding: 10px 30px 10px 30px;    
     font-family: 'Ropa Sans';
     font-weight: bold;
+    font-size: large;
+    color: #3C375C;
+    
     
 }
 footer{
     clear: both;
-    height: 72px;
+    width: 100%;
+    background-color: #3C375C;
+    position: absolute;
+    bottom: 0;
+    color: #7A6EB0;
+    text-align: center;
+    padding: 1% 0 1% 0;
+
+}
+#kontakt{
+    float: left;
+    margin-right:10%;
+    
+}
+#media{
+    float: left;
+    margin-right:10%;
+}
+#authors{
+    float: left;
+    margin-right:10%;
+    margin-left: 20%;
 }
 
- 
   
  
