@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css.css">
+    <link href='https://fonts.googleapis.com/css?family=Ropa Sans' rel='stylesheet'>
+    <title>Ember</title>
+    <link rel="icon" href="logo.png" type="image/icon type">
+ 
+
+
+</head>
+<body id="body1">
+
+<div class="container1">
+    <svg viewBox="0 0 500 500"
+        preserveAspectRatio="xMinYMin meet"
+        style="z-index:-2;">
+         
+        <path d="M0, 300 C150, 600 150,
+            0 500, 220 L500, 00 L0, 0 Z"
+            style="stroke: none;
+            fill:rgba(109, 101, 169, 0.5);">
+        </path>
+    </svg>
+    <svg viewBox="0 0 500 500"
+        preserveAspectRatio="xMinYMin meet"
+        style="z-index: -3;">
+         
+        <path d="M0, 150 C150, 200 350,
+            0 500, 100 L500, 00 L0, 0 Z"
+            style="stroke: none;
+            fill:rgba(82, 74, 133, 0.903);">
+        </path>
+    </svg>
+    <header>
+        <a href="index.php"><img id="logo"  src="logo.png" alt="logo"></a>
+        <a id="podstrona" href="specjalisci.php">Specjaliści</a>
+        <a id="podstrona" href="str.html">Usługi</a>
+        <a id="log-in" href="logowanie.php">Zaloguj sie</a>
+    </header>
+    <div id="main2">
+        <div id="mainTxt">Znajdz swojego<br> specjaliste
+        <form id="form1" method="post">     
+            <select id="formElement" name="specjalizacja">
+                <option value="0">specjalizacja </option>
+                <option value="Kosmetyczka">Kosmetyczka</option>
+                <option value="Mechanik">Mechanik</option>
+                <option value="Reklama">Reklama</option>
+            </select>
+            <select id="formElement"  name="miasto">
+                <option value="0">miasto</option>
+                <option value="Kosmetyczka">Gdańsk</option>      
+                <option value="Mechanik">Gdynia</option>
+                <option value="Reklama">Sopot</option>
+            </select>
+            <input id="formElement"  type="submit" value="Szukaj">
+
+            <?php
+                require('conn.php');
+                require('search.php');
+            ?>
+
+        </form>
+        </div>
+        <img src="main_jpg.png" id="mainPng" alt="zdj">
+        <footer id="footer1">
+           
+               <div id="kontakt">
+               <h4>KONTAKT</h4>
+               mail@mail.com <br>
+               +48 123 321 213
+            </div>
+            
+            <div id="media">
+                <h4>MEDIA</h4>
+                facebook &nbsp;
+                instagram
+             </div>
+             <div id="media">
+                <h4>REGULAMIN</h4>
+                regulamin
+             </div>
+           </footer> 
+    </div>
+    
+    
+</div>
+
+
+   
+</body>
+</html>
+
+

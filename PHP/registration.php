@@ -1,6 +1,5 @@
 <?php
-    require('db.php');
-    // Wrzuca użytkownika do bazy po udanej rejestracji
+    require('conn.php');
     if (isset($_REQUEST['username'])) {
         $username = stripslashes($_REQUEST['username']);
         $username = mysqli_real_escape_string($con, $username);
@@ -14,13 +13,11 @@
         $result   = mysqli_query($con, $query);
         if ($result) {
             echo "<div class='form'>
-                  <h3>You are registered successfully.</h3><br/>
-                  <p class='link'>Click here to <a href='login.php'>Login</a></p>
+                  <h3>You have registered successfully.</h3><br/>
                   </div>";
         } else {
             echo "<div class='form'>
                   <h3>Required fields are missing.</h3><br/>
-                  <p class='link'>Click here to <a href='registration.php'>registration</a> again.</p>
                   </div>";
         }
     }
